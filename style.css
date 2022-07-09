@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-04-caps/css/bpg-le-studio-04-caps.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+} 
+
+h1 {
+    font-size: 40px;
+}
+nav{
+    position:fixed;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+
+
+}
+nav .logo img{
+  width: 300px;
+  height: auto;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  font-family: "BPG LE Studio 04 Caps", sans-serif;
+
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #90AFC4;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+}
+
+
+
+.content h1 {
+    padding: 10px 100px;
+}
+.content p {
+    font-size: 20px;
+    padding: 10px 100px;
+
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 100px;
+    background-color: #201E1E;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    margin: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact-info li {
+    list-style: none;
+}
+
+.contact-info a {
+    color: white;
+    margin: 5px 20px;
+    text-decoration: none;
+}
+
+footer h2 {
+    margin: 10px;
+}
+
+.copy {
+    position: absolute;
+    bottom: 5px;
+}
