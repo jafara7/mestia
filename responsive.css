@@ -233,6 +233,41 @@
 .navbar .menu-items {
   width: 145%;
 }
+
+
+
+
+#contact a {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "BPG LE Studio 04 Caps", sans-serif;
+  font-size: 18px;
+}
+#contact h2{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+}
+
+#contact h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+#submit {
+  font-size: 15px;
+}
+
 }
 
 

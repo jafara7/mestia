@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "BPG LE Studio 04 Caps", sans-serif;
 
 }
 
@@ -295,3 +296,91 @@ button:hover {
 
 
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input {
+  border: 1px solid #000000;
+  background-color: transparent;
+  color: #000000;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-inline: 5px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+textarea {
+  border: 1px solid #000000;
+  background-color: transparent;
+  color: #000000;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-inline: 5px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  font-size: 18px;
+  height: 40px;
+  align-items: center;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#contact a {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  text-align: center;
+  margin: 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+#contact h2{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  text-align: center;
+}
+
+#contact h1 {
+  margin-top: 80px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
