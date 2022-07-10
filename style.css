@@ -188,9 +188,6 @@ button:hover {
   width: 90%;
 }
 
-
-
-
 .slider{  
   margin: auto;
   width: 80%;
@@ -219,7 +216,6 @@ button:hover {
   height: 500px;
 }
 
-/*css for manual slide navigation*/
 
 .navigation-manual{
   position: absolute;
@@ -261,8 +257,6 @@ button:hover {
   margin-left: -60%;
 }
 
-/*css for automatic navigation*/
-
 .navigation-auto{
   position: absolute;
   display: flex;
@@ -298,3 +292,6 @@ button:hover {
   background: #40D3DC;
 }
       
+
+
+
