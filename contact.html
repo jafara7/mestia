@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <title>სერვისები</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>სერვისები</title>
 </head>
+
 <body>
-    <nav>
-      <div class="navbar">
-        <div class="container nav-container">
-            <input class="checkbox" type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>  
-         
-          <div class="menu-items">
-            <div class="logo">
-              <img class="logo" src="assets/images/title_image.jpg" alt="">
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <img class="logo-mobile" src="assets/images/logo.png" alt="lag_logo">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+        <div class="menu-items">
+          <div class="logo">
+            <img class="logo" src="assets/images/logo.png" alt="lag_logo">
           </div>
-            <li><a href="index.html">მთავარი</a></li>
-            <li><a href="about.html">ჩვენ შესახებ</a></li>
-            <li><a href="services.html">სერვისები</a></li>
-            <li><a href="products.html">პროდუქტები</a></li>
-            <li><a href="#">ფესტივალი</a></li>
-            <li><a class="active" href="contact.html">კონტაქტი</a></li>
-          </div>
+          <li><a href="index.html">მთავარი</a></li>
+          <li><a href="about.html">ჩვენ შესახებ</a></li>
+          <li><a href="services.html">სერვისები</a></li>
+          <li><a href="products.html">პროდუქტები</a></li>
+          <li><a href="#">ფესტივალი</a></li>
+          <li><a class="active" href="contact.html">კონტაქტი</a></li>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
 
-    <div id="contact">
-      <div class="contact">
-          <h1>მოგვწერეთ ან მოითხოვეთ ზარი</h1>
-          <h2> 
-          <a class="contact-a">51a Kakhiani Street, Mestia</a> 
-           <a class="contact-a" href="mailto:lagmestia@gmail.com">lagmestia@gmail.com</a>
-           <a class="contact-a" href="tel:+995599806285">+995 599 80 62 85</a>
-          </h2>
+  <div id="contact">
+    <div class="contact">
+      <h1>მოგვწერეთ ან მოითხოვეთ ზარი</h1>
+      <h2>
+        <a class="contact-a">51a Kakhiani Street, Mestia</a>
+        <a class="contact-a" href="mailto:lagmestia@gmail.com">lagmestia@gmail.com</a>
+        <a class="contact-a" href="tel:+995599806285">+995 599 80 62 85</a>
+      </h2>
 
-          <form action="" method="POST" id="my-form">
-          <label for="name">სახელი და გვარი</label>
-          <input type="text" id="name" name="name" />
+      <form action="" method="POST" id="my-form">
+        <label for="name">სახელი და გვარი</label>
+        <input type="text" id="name" name="name" />
 
-          <label for="email">იმეილი </label>
-          <input type="email" id="email" name="email" />
+        <label for="email">იმეილი </label>
+        <input type="email" id="email" name="email" />
 
-          <label for="email">ნომერი </label>
-          <input type="number" id="number" name="number" />
+        <label for="email">ნომერი </label>
+        <input type="number" id="number" name="number" />
 
-          <label for="subject">თემატიკა</label>
-          <input type="text" id="subject" name="subject" placeholder="რასთან დაკავშირებით გვიკავშირდებით?" />
+        <label for="subject">თემატიკა</label>
+        <input type="text" id="subject" name="subject" placeholder="რასთან დაკავშირებით გვიკავშირდებით?" />
 
-          <label for="message">მესიჯი </label>
-          <textarea name="textarea" id="message" cols="20" rows="10" placeholder="თქვენი მესიჯი..."></textarea>
-          
-          <input id="submit" name="send" type="submit" value="მესიჯის გაგზავნა">
-          </form>
-          <div id="status"></div>
-          <script src=""></script>
-      </div>
+        <label for="message">მესიჯი </label>
+        <textarea name="textarea" id="message" cols="20" rows="10" placeholder="თქვენი მესიჯი..."></textarea>
+
+        <input id="submit" name="send" type="submit" value="მესიჯის გაგზავნა">
+      </form>
+      <div id="status"></div>
+      <script src=""></script>
+    </div>
   </div>
 
-    </div>
-  </body>
+  </div>
+</body>

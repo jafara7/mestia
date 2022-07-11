@@ -12,8 +12,9 @@
   display: flex;
   align-items: center;
   width: 200px;
-  height: auto;
+  height: 50px;
   margin: 0px 40px 0px 0px;
+  cursor: pointer;
 }
 
 .logo-mobile {
@@ -310,7 +311,6 @@ input::-webkit-inner-spin-button {
 
 .image-container {
   margin-top: 50px;
-
 }
 
 .container .image-container .image {
@@ -342,8 +342,6 @@ input::-webkit-inner-spin-button {
   z-index: 100;
   display: none;
 }
-
-
 
 .container .popup-image img {
   position: absolute;
