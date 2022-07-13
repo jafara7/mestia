@@ -122,7 +122,10 @@ button:hover {
 }
 
 .cover img {
-  width: 100%;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
 }
 
 /* description */
@@ -351,10 +354,15 @@ input::-webkit-inner-spin-button {
   border: 5px solid rgb(0, 0, 0);
   border-radius: 5px;
   width: 750px;
-  height: 90%;
+  height: 80%;
   object-fit: cover;
 }
 
+
+.product-head {
+  padding: 20px 120px 0px;
+  text-align: center;
+}
 /* products */
 /* products */
 /* products */
