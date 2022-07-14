@@ -273,6 +273,32 @@
     height: 40%;
     object-fit: cover;
   }
+
+  .product-head {
+    padding: 30px;
+    text-align: center;
+  }
+
+
+  .main-cover h1 {
+    padding: 0px 40px;
+    margin-top: 150px;
+    font-size: 25px;
+  }
+  
+  .main-cover h2 {
+    
+    padding: 0px 40px;
+    margin-top: 40px;
+  }
+
+
+
+
+
+
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

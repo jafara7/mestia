@@ -128,6 +128,39 @@ button:hover {
   margin-top: 60px;
 }
 
+
+.main-cover img {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.main-cover h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main-cover h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 120px;
+  margin-top: 90px;
+  
+}
+
+
+
+
 /* description */
 /* description */
 /* description */
@@ -358,6 +391,11 @@ input::-webkit-inner-spin-button {
   object-fit: cover;
 }
 
+
+.product-head {
+  padding: 20px 120px 0px;
+  text-align: center;
+}
 /* products */
 /* products */
 /* products */
